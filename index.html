@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas-zoom</title>
+    <style>
+      canvas{
+          border: 1px solid #000000;
+          max-width: 100%;
+      }
+      img{
+          max-width: 100%;
+      }
+    </style>
+</head>
+<body>
+    <input type="file" id="imgfile">
+    <div id="bg"></div>
+    <div id="image">
+    </div>
+    <form>
+        <input type="button" value="画像に変換" id="changeImg">
+    </form>
+    <div><img id="newImg"></div>
+    <script src="canvas.js"></script>
+</body>
+</html>
